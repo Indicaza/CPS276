@@ -1,5 +1,4 @@
 <?php
-
 class Calculator {
     public function calc($operator, $num1 = 'none', $num2 = 'none') {
         if ($num1 === 'none' || $num2 === 'none' || !in_array($operator, ['+', '-', '*', '/'])) {
